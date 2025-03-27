@@ -1,0 +1,16 @@
+{
+  "name": "mining-worker",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/amqplib": "^0.10.7",
+    "@types/node": "^22.13.13",
+    "amqplib": "^0.10.5"
+  }
+}
